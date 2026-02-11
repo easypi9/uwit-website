@@ -1,0 +1,34 @@
+<svg width="192" height="192" viewBox="64 64 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="geo_mark_ribbon_a" x1="116" y1="88" x2="212" y2="212" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E6FF9A"/>
+      <stop offset="0.52" stop-color="#B6FF31"/>
+      <stop offset="1" stop-color="#75DA25"/>
+    </linearGradient>
+    <linearGradient id="geo_mark_ribbon_b" x1="126" y1="102" x2="214" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#D7FF84"/>
+      <stop offset="0.56" stop-color="#A8F72E"/>
+      <stop offset="1" stop-color="#6FD327"/>
+    </linearGradient>
+    <linearGradient id="geo_mark_core" x1="140" y1="126" x2="202" y2="194" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ECFFBC"/>
+      <stop offset="1" stop-color="#93EB34"/>
+    </linearGradient>
+    <linearGradient id="geo_mark_sheen" x1="124" y1="94" x2="194" y2="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="64" y="64" width="192" height="192" rx="34" fill="#0E151D" stroke="#2A3C4B" stroke-width="2"/>
+  <rect x="84" y="84" width="152" height="152" rx="22" stroke="#2B3D4C" stroke-width="2"/>
+
+  <path d="M112 208V124L136 100H162V116H144L128 132V208H112Z" fill="url(#geo_mark_ribbon_a)"/>
+  <path d="M208 112V196L184 220H158V204H176L192 188V112H208Z" fill="url(#geo_mark_ribbon_b)"/>
+  <path d="M147 179L179 147L171 139L139 171Z" fill="url(#geo_mark_core)"/>
+
+  <path d="M124 116L144 96H196" stroke="url(#geo_mark_sheen)" stroke-width="4" stroke-linecap="square"/>
+
+  <rect x="125" y="199" width="6" height="6" rx="1" fill="#54F4FF"/>
+  <rect x="199" y="119" width="6" height="6" rx="1" fill="#54F4FF"/>
+</svg>
